@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*一行目で必ず文字コードを指定*/
+
+/* 複数のセレクターに1つのプロパティを設定する(カンマで複数指定) */
+h1,
+h2,
+h3 {
+    color: white;
+    font-family: serif;
+}
+
+p {
+    color: white;
+    font-family: serif;
+}
+
+ul {
+    color: white;
+    font-family: serif;
+}
+
+body {
+    background-color: #808080;
+}
+
+header,
+footer {
+    background-color: #696969;
+}
